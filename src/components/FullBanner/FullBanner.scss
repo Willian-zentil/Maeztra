@@ -132,7 +132,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     .swiper-button-prev {
         left: -30px;
         @media(max-width: 992px){
-            left: 10px;
+            left: 10px!important;
         }
     }
 }
