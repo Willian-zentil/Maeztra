@@ -1,0 +1,44 @@
+.MiddleBanner{
+    margin-bottom: 80px;
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        max-width: 420px;
+        text-align: start;
+    }
+    @media(max-width: 992px) {
+        flex-direction: column;
+        margin-bottom: 39px;
+        .content-img {
+            margin-top: 12px;
+        }
+    }
+    .content-text {
+        min-width: 420px;
+        margin-right: 54px;
+        @media(max-width: 992px) {
+            max-width: 290px;
+            min-width: unset;
+            margin: 0;
+        }
+    }
+    .content-img {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+    text-align: start;
+    @media(max-width: 992px) {
+        margin: 2px 0;
+    }
+}

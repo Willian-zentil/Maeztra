@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&family=Montserrat:wght@500&family=Titillium+Web:wght@300&display=swap');
+
+span, p, h5, h3, label {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+    margin-bottom: 32px;
+}
+
+.swiper-button-prev {
+    left: -95px;
+}
+
+.variacao {
+    display: flex;
+    justify-content: flex-start;
+    span {
+        width: 27px;
+        height: 27px;
+        border-radius: 4px;
+        display: block;
+        margin: 4px;
+        cursor: pointer;
+        &.brow {
+            background: #DEAC71;
+            border: 1px solid #353535;
+            margin-left: 0;
+        }
+        &.red {
+            background: #D37164;
+        }
+        &.blue {
+            background: #6497D3;
+        }
+        &.purple {
+            background: #3C3B79;
+        }
+        &.white {
+            background: #EAE9E5;
+        }
+        &.black {
+            background: #1C1A19;
+            margin-left: 0;
+        }
+        &.gray {
+            background: #3C3B79;
+        }
+    }
+}
+
+.swiper-button-next {
+    right: -95px;;
+}
+
+.Shelf {
+    margin: 75px 0;
+    @media(max-width: 992px) {
+        margin: 24px 0;
+    }
+}
+
+.item-shelf {
+    max-width: 308px;
+    .content-item {
+        text-align: initial;
+        padding: 0 20px;
+    }
+    label {
+        background: #FAA500;
+        border-radius: 4px;
+        height: 35px;
+        width: 254px;
+        font-weight: lighter;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #FFFFFF;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+    h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+        /* color-2-900 */
+        
+        color: #000000;
+    }
+    .price {
+        text-align: start;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        
+        /* color-2-500 */
+        
+        color: #353535;
+        margin: 0;
+    }
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 8px 0;
+        /* color-2-900 */
+        
+        color: #000000;
+        max-width: 250px;
+        opacity: 0.5;
+    }
+    .item-img {
+        width: auto;
+    }
+}
